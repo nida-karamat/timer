@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { FaFacebook } from "react-icons/fa";
+import { FaFacebook } from "react-icons/fa6";
 import { FaInstagram } from "react-icons/fa6";
 import { FaThreads } from "react-icons/fa6";
 const Countdown = () => {
