@@ -1,7 +1,7 @@
 import { useState } from "react";
-import { FaFacebook } from "react-icons/fa6";
-import { FaInstagram } from "react-icons/fa6";
-import { FaThreads } from "react-icons/fa6";
+// import { FaFacebook } from "react-icons/fa6";
+// import { FaInstagram } from "react-icons/fa6";
+// import { FaThreads } from "react-icons/fa6";
 const Countdown = () => {
   const calculateTimeLeft = () => {
     const launchDate = new Date();
@@ -37,9 +37,9 @@ const Countdown = () => {
         ))}
       </div>
       <div className="flex space-x-5 mt-8">
-        <FaFacebook />
+{/*         <FaFacebook />
         <FaInstagram />
-        <FaThreads />
+        <FaThreads /> */}
       </div>
     </div>
   );
